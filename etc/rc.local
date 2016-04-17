@@ -1,0 +1,37 @@
+#!/bin/sh -e
+#
+# rc.local
+#
+# This script is executed at the end of each multiuser runlevel.
+# Make sure that the script will "exit 0" on success or any other
+# value on error.
+#
+# In order to enable or disable this script just change the execution
+# bits.
+#
+# By default this script does prints the IP address, sets up PiBakery,
+# and then reverts this script to what it would be on a standard
+# Raspbian install. 
+
+# Run the "first boot" PiBakery script
+chmod +x /boot/PiBakery/firstBoot.sh
+/boot/PiBakery/firstBoot.sh
+
+# Remove the firstBoot xml from the blockly file
+/usr/bin/python /opt/PiBakery/removeFirst.py
+
+# Install the PiBakery service
+update-rc.d pibakery defaults
+service pibakery start
+
+# Print the IP address
+_IP=$(hostname -I) || true
+if [ "$_IP" ]; then
+  printf "My IP address is %s\n" "$_IP"
+fi
+
+# Revert this script
+rm -r /etc/rc.local
+mv /etc/rc.local.original /etc/rc.local
+
+exit 0

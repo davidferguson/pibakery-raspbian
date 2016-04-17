@@ -1,0 +1,30 @@
+#!/bin/bash
+# /etc/init.d/pibakery
+
+### BEGIN INIT INFO
+# Provides:          pibakery
+# Required-Start:    $remote_fs $syslog
+# Required-Stop:     $remote_fs $syslog
+# Default-Start:     2 3 4 5
+# Default-Stop:      0 1 6
+# Short-Description: Runs PiBakery
+# Description:       Runs user defined PiBakery scripts on boot
+### END INIT INFO
+
+
+case "$1" in 
+    start)
+        echo "Running PiBakery User Scripts"
+		chmod 755 /boot/PiBakery/everyBoot.sh
+		chmod 755 /boot/PiBakery/nextBoot.sh
+        /boot/PiBakery/everyBoot.sh
+        /boot/PiBakery/nextBoot.sh
+        /usr/bin/python /opt/PiBakery/removeNext.py
+        ;;
+    *)
+        echo "Usage: /etc/init.d/pibakery start"
+        exit 1
+        ;;
+esac
+
+exit 0
