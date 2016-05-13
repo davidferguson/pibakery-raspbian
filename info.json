@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "compressedMD5": "81235bc317aa4335a3b9b10dc9894e49",
-  "uncompressedMD5": "6fb460bb4a88949cb2e64278e1fa1e3b",
+  "compressedMD5": "6d4de146f7b88d27a84e0488ad45ac23",
+  "uncompressedMD5": "29bbc680fd270b4551e3f8b4f3307984",
   "raspbianDate": "2016-05-10-raspbian-jessie",
   "downloadUrl": "https://github.com/davidferguson/pibakery-raspbian/releases/download/0.0.2/raspbian-pibakery.7z",
   "uncompressedSize": 4016046080
