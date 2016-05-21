@@ -1,4 +1,4 @@
-# Removes the first boot blockly xml from /boot/PiBakery/blocks.xml 
+# Removes the first boot blockly xml from /boot/PiBakery/blocks.xml
 
 from xml.dom import minidom
 
@@ -11,6 +11,8 @@ for block in blocks:
 		if block.getAttribute('type') == 'onfirstboot':
 			root.removeChild(block)
 
-blockFile = open('/boot/PiBakery/blocks.xml','wb')
-root.writexml(blockFile)
-blockFile.close()
+firstboot = xmldoc.getElementsByTagName('firstboot')[0]
+firstboot.firstChild.replaceWholeText('0')
+
+with open('/boot/PiBakery/blocks.xml','wb') as blockfile:
+	root.writexml(blockfile)
