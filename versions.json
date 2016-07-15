@@ -1,12 +1,7 @@
 [
 	{
-		"version":1,
-		"hash":"0c2a7f337e661f93654d0792a317bfc4",
-		"original":"2016-03-18-raspbian-jessie"
-	},
-	{
-		"version":2,
-		"hash":"29bbc680fd270b4551e3f8b4f3307984",
-		"original":"2016-05-10-raspbian-jessie"
+		"version":0.1.0,
+		"hash":"dcef870dfe00d3eca4c6f83555bf20be",
+		"original":"2016-05-27-raspbian-jessie"
 	}
 ]
