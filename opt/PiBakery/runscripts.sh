@@ -23,8 +23,8 @@ then
   then
     /opt/PiBakery/waitForNetwork.sh || /bin/true
   fi
-  /boot/PiBakery/firstBoot.sh || /bin/true
   /usr/bin/python /opt/PiBakery/removeFirst.py || /bin/true
+  /boot/PiBakery/firstBoot.sh || /bin/true
 fi
 
 # Run the nextBoot script, and prevent it from running again
@@ -36,8 +36,8 @@ then
   then
     /opt/PiBakery/waitForNetwork.sh || /bin/true
   fi
-  /boot/PiBakery/nextBoot.sh || /bin/true
   /usr/bin/python /opt/PiBakery/removeNext.py || /bin/true
+  /boot/PiBakery/nextBoot.sh || /bin/true
 fi
 
 # Run the everyBoot script
