@@ -1,10 +1,10 @@
 [
 	{
-		"version": 1.1,
-		"compressedMD5": "65607a9b5068ee34d1dbef5f0c8380c6",
-		"uncompressedMD5": "beb926e2ec922644683d725d6abf79d0",
-		"downloadUrl": "https://github.com/davidferguson/pibakery-raspbian/releases/download/v0.1.1/raspbian-pibakery.7z",
-		"uncompressedSize": 4019191808,
+		"version": 2.0,
+		"compressedMD5": "7b50e4d6abbe5f3ba8030f2b3f509cc1",
+		"uncompressedMD5": "5a87d0df56c922c072a05ab1044db790",
+		"downloadUrl": "https://github.com/davidferguson/pibakery-raspbian/releases/download/v0.2.0/raspbian-pibakery.7z",
+		"uncompressedSize": 4348444672,
 		"filename": "raspbian-pibakery.img",
 		"compressedFilename": "raspbian-pibakery.7z",
 		"uncompressedFilename": "raspbian-pibakery-new.img",
@@ -13,11 +13,11 @@
 		"skipVersion": 0
 	},
 	{
-		"version": 1.1,
-		"compressedMD5": "d9357716eb68216258725a5a738022ac",
-		"uncompressedMD5": "12fe9e0e7a5c8c5b2fae8841963f7f85",
-		"downloadUrl": "https://github.com/davidferguson/pibakery-raspbian/releases/download/v0.1.1/raspbian-lite-pibakery.7z",
-		"uncompressedSize": 1387266048,
+		"version": 2.0,
+		"compressedMD5": "a15db1674ef12dbdf18754b09eb39350",
+		"uncompressedMD5": "93077033522fd49e9b0efa7f75f91407",
+		"downloadUrl": "https://github.com/davidferguson/pibakery-raspbian/releases/download/v0.2.0/raspbian-lite-pibakery.7z",
+		"uncompressedSize": 1389363200,
 		"filename": "raspbian-lite-pibakery.img",
 		"compressedFilename": "raspbian-lite-pibakery.7z",
 		"uncompressedFilename": "raspbian-lite-pibakery-new.img",
