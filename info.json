@@ -1,8 +1,8 @@
 {
-  "version": 2.0,
-  "compressedMD5": "7b50e4d6abbe5f3ba8030f2b3f509cc1",
-  "uncompressedMD5": "5a87d0df56c922c072a05ab1044db790",
-  "raspbianDate": "2016-09-28-raspbian-jessie",
-  "downloadUrl": "https://github.com/davidferguson/pibakery-raspbian/releases/download/v0.2.0/raspbian-pibakery.7z",
-  "uncompressedSize": 4348444672
+  "version": 5.0,
+  "compressedMD5": "b12a9ada65a7ef47cb1cccf01ca0f032",
+  "uncompressedMD5": "9961c79328ac643bcce7cadd06e0cc33",
+  "raspbianDate": "2017-06-21-raspbian-jessie",
+  "downloadUrl": "https://github.com/davidferguson/pibakery-raspbian/releases/download/v0.5.0/raspbian-pibakery.7z",
+  "uncompressedSize": 4659931113
 }
