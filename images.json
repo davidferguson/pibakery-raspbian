@@ -1,6 +1,6 @@
 [
 	{
-		"version": 6.0,
+		"version": 7.0,
 		"compressedMD5": "9756d47750543ab0c75182fd8e5c42bd",
 		"uncompressedMD5": "1747e828ba9bec478175051675012f54",
 		"downloadUrl": "https://github.com/davidferguson/pibakery-raspbian/releases/download/v0.7.0/raspbian-pibakery.7z",
@@ -13,7 +13,7 @@
 		"skipVersion": 0
 	},
 	{
-		"version": 6.0,
+		"version": 7.0,
 		"compressedMD5": "91b788d00de808a03bc83b6983ea3f2d",
 		"uncompressedMD5": "a651e4c5eba71bdf566ea7555f2b2684",
 		"downloadUrl": "https://github.com/davidferguson/pibakery-raspbian/releases/download/v0.7.0/raspbian-lite-pibakery.7z",
